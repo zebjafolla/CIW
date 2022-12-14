@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function add(arg1, arg2)
+        {
+            return arg1 + arg2;
+        }
+        function subtract(arg1, arg2)
+        {
+            return arg1 - arg2;
+        }
+        function multiply(arg1, arg2)
+        {
+            return arg1 * arg2;
+        }
+        function divide(arg1, arg2)
+        {
+            return arg1 / arg2;
+        }
+        function ask()
+        {
+            prompt("What is Arg1 and Arg2 equaled to?")
+        }
+    </script>
+</head>
+<body onMouseOver="ask()";>
+    <script>
+        document.write("Arg1 plus Arg2 is equal to: " + add(12, 35) + "<br>");
+        document.write("Arg1 minus Arg2 is equal to: " + subtract(12, 99) + "<br>");
+        document.write("Arg1 multiplied by Arg2 is equal to: " + multiply(2, 89) + "<br>");
+        document.write("Arg1 divided by Arg2 is equal to: " + divide(99, 11) + "<br>");
+        
+
+    </script>
+    
+</body>
+</html>
