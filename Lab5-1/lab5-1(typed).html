@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CIW Javascript Specialist</h1>
+    <hr>
+    <br>
+    <label>select numerical grade value: 
+        <input id="select1" type="number" min="1" max="100" value="100">
+    </label>
+    <br>
+    <br>
+    <button onclick="checkGrade(getOption())">Check Grade</button>
+    <script type="text/javascript">
+        <!--
+        function getOption() 
+        {
+            selectElement = document.querySelector('#select1');
+            output = selectElement.value;
+            console.log(output);
+            return output;
+        }
+        function checkGrade(output)
+        {
+            if (output >=91 && output <=100)
+            {
+                alert("Your grade is an A!");
+            }
+            else if (output < 91 && output >= 80)
+            {
+                alert("Your grade is a B!");
+            }
+            else if (output < 80 && output >= 70)
+            {
+                alert("Youre grade is a C!");
+            }
+            else if (output < 70 && output >= 60)
+            {
+                alert("Youre grade is a D!");
+            }
+            else if (output < 60)
+            {
+                alert("Youre grade is an F!");
+            }
+        }   
+        // -->
+    </script>    
+</body>
+</html>
